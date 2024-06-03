@@ -1,0 +1,60 @@
+/* --- UNIVERSAL TAGS --- */
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* --- PRINCIPAL SECTION --- */
+
+/* --- Carousel --- */
+.banner-img {
+  max-height: 85vh;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+.caruosel .carousel-control-prev-icon, .caruosel .carousel-control-next-icon {
+    filter: invert(0) grayscale(0);
+}
+
+/* --- SECURITY SECTION --- */
+
+/* --- Img --- */
+
+.security-img {
+  height: auto;
+  object-fit: cover;
+}
+
+/* --- Icon --- */
+
+.main-svg {
+  width: 32px;
+  height: 32px;
+}
+
+/* --- FOOTER --- */
+
+/* --- Img --- */
+
+.footer-img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* --- Icon --- */
+
+.footer-svg {
+  width: 24px;
+  height: 24px;
+}
