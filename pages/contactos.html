@@ -63,14 +63,14 @@
       </nav>
     </header>
     <main>
-      <h1 class="bg-info-subtle text-success-emphasis text-center p-5">
+      <h1 class="bg-info-subtle text-light-emphasis text-center p-5">
         Contactános
       </h1>
       <section class="container my-4">
         <article class="row">
           <div class="col-md-6">
             <form>
-              <div class="mb-4">
+              <div class="mb-3">
                 <label for="nombreApellido" class="form-label"></label>Nombre y
                 Apellido *
                 <input
@@ -83,7 +83,7 @@
                   required
                 />
               </div>
-              <div class="mb-4">
+              <div class="mb-3">
                 <label for="emailContacto" class="form-label"></label>Correo
                 Electrónico *
                 <input
@@ -96,7 +96,7 @@
                   required
                 />
               </div>
-              <div class="mb-4">
+              <div class="mb-3">
                 <label for="telefonoContacto" class="form-label"></label
                 >Teléfono
                 <input
@@ -108,7 +108,7 @@
                   placeholder="+5491234567890"
                 />
               </div>
-              <div class="mb-4">
+              <div class="mb-3">
                 <label for="escribeConsulta" class="form-label"></label
                 >Consultas *
                 <textarea
@@ -131,8 +131,13 @@
               </div>
             </form>
           </div>
-          <div class="col-md-6 bg-secondary">
-            <p>Aquí va un mapa interactivo</p>
+          <div class="col-md-6">
+            <iframe
+              class="w-100 h-100 rounded-2"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113927.31383852505!2d-65.30499499695999!3d-26.83268184781205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94223792d6c56903%3A0xf88d5b92b5c56527!2sSan%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1718769624966!5m2!1ses-419!2sar"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </article>
       </section>
