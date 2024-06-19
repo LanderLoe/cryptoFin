@@ -1,0 +1,41 @@
+[33mcommit 709c58dd449c548a3bc5f62dcf18878b8fe91977[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mpaginaError404[m[33m)[m
+Author: Leandro Lobos <leonelleandro13@gmail.com>
+Date:   Wed Jun 19 11:33:31 2024 -0300
+
+    agregué una sección de error, contiene un título y un botón que redirecciona a la página de inicio
+
+[33mcommit 6699e13dabad88b794665e9fbc3a50709ac17b74[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mdev[m[33m)[m
+Author: Leandro Lobos <leonelleandro13@gmail.com>
+Date:   Wed Jun 19 02:19:35 2024 -0300
+
+    último cambio por falla al guardarlos
+
+[33mcommit 104718bf9385cf32e5726510b15fe5f9f2db8271[m
+Author: Leandro Lobos <leonelleandro13@gmail.com>
+Date:   Wed Jun 19 02:03:09 2024 -0300
+
+    agregué el footer
+
+[33mcommit dfb95a379f04f5c1acdd11835a87bc803eebfc8c[m
+Author: Leandro Lobos <leonelleandro13@gmail.com>
+Date:   Wed Jun 19 01:53:28 2024 -0300
+
+    agregué un mapa de google maps y cambié el color del título
+
+[33mcommit 562d06d8c8454ef525c644d0dae8289f9c736d3d[m
+Author: Leandro Lobos <leonelleandro13@gmail.com>
+Date:   Wed Jun 19 00:18:10 2024 -0300
+
+    se dividió en secciónes la página de contactos, agregando un título; un formulario con sus respectivas validaciones y un sistema de grillas
+
+[33mcommit 62d2676582c31340847763939b974bbf08ac02ed[m
+Author: Leandro Lobos <leonelleandro13@gmail.com>
+Date:   Wed Jun 5 10:37:00 2024 -0300
+
+    cambie el color del titulo de la pagina  Preguntas Frecuentes
+
+[33mcommit 8ee87cfb2f5885846fb96633de1e58436db406c2[m
+Author: Leandro Lobos <leonelleandro13@gmail.com>
+Date:   Mon Jun 3 11:31:36 2024 -0300
+
+    Estructura principal del proyecto
