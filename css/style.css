@@ -1,19 +1,27 @@
-/* --- UNIVERSAL TAGS --- */
+@import url(./nosotros.css);
+@import url(./preguntasFrecuentes.css);
+@import url(./error404.css);
+@import url(./contactos.css);
 
+/* --- Footer hacia abajo --- */
 body{
+  min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
+main {
+  flex-grow: 1;
+}
 
+/* Texto */
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
-
 p {
   text-wrap: pretty;
 }
 
-/* --- PRINCIPAL SECTION --- */
+/* --- SECCIÓN PRINCIPAL --- */
 
 /* --- Carousel --- */
 .banner-img {
@@ -21,22 +29,18 @@ p {
   object-fit: cover;
   object-position: center 30%;
 }
-
 .caruosel .carousel-control-prev-icon, .caruosel .carousel-control-next-icon {
     filter: invert(0) grayscale(0);
 }
 
-/* --- SECURITY SECTION --- */
+/* --- SECCIÓN SEGURIDAD --- */
 
-/* --- Img --- */
-
+/* --- Imágenes --- */
 .security-img {
   height: auto;
   object-fit: cover;
 }
-
-/* --- Icon --- */
-
+/* --- Íconos --- */
 .main-svg {
   width: 32px;
   height: 32px;
@@ -44,16 +48,13 @@ p {
 
 /* --- FOOTER --- */
 
-/* --- Img --- */
-
+/* --- Imágen --- */
 .footer-img {
   width: 80%;
   height: auto;
   object-fit: cover;
 }
-
-/* --- Icon --- */
-
+/* --- Íconos --- */
 .footer-svg {
   width: 24px;
   height: 24px;
